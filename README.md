@@ -5,9 +5,10 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue.svg)](https://www.postgresql.org/)
 [![Grafana](https://img.shields.io/badge/Grafana-10.0-orange.svg)](https://grafana.com/)
 [![Docker](https://img.shields.io/badge/Docker-24.0-blue.svg)](https://www.docker.com/)
-![Dashboard](dashboard-screensho.jpg)
-**Потоковая обработка данных о продажах в реальном времени.**
 
+**Потоковая обработка данных о продажах в реальном времени.**
+![Dashboard](dashboard-screensho.jpg)
+![Dashboard](graph.jpg)
 ## 📊 Архитектура
 Producer (Python) → Redis Queue → Consumer (Python) → PostgreSQL → Grafana
 
