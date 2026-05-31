@@ -1,0 +1,3 @@
+redis
+faker
+psycopg2-binary
